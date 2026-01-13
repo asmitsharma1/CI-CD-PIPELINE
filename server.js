@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
 
     <body>
       <div class="card">
-        <h1 class="hi there success">Deployment Successfull made By AKS 🚀</h1>
+        <h1 class="success">hi there Deployment Successfull made By AKS 🚀</h1>
         <p><b>Version:</b> ${version}</p>
         <p><b>Last Deployed:</b> ${deployedAt}</p>
         <p>Powered by Jenkins + Docker</p>
